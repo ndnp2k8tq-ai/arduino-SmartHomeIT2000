@@ -1,9 +1,9 @@
-# Smart Home Pro v6 — Nhóm 14
+# Nhà thông minh Arduino — Nhóm 14
 
-Hệ thống **nhà thông minh chạy trên Arduino UNO + Kit Keyestudio Smart Home (KS0085)**, được xây dựng bởi **Nguyễn Đoàn Nhất Phong** và **Nguyễn Duy Quang** — **HUST, Trường Công nghệ Thông tin và Truyền thông (SoICT)**.
+Hệ thống **nhà thông minh chạy trên Arduino UNO + Kit Keyestudio Smart Home (KS0085)**, được xây dựng bởi **Nguyễn Đoàn Nhất Phong** và **Nguyễn Duy Quang** Môn học: Nhập môn CNTT&TT (IT2000)
 
 Dự án tập trung vào tự động hóa, an ninh, giám sát khí gas, chiếu sáng, thông gió, cửa tự động, tưới cây, chào khách, phát nhạc và hẹn giờ. Điểm nổi bật về kỹ thuật là kiến trúc **non-blocking dựa trên `millis()`**, máy trạng thái (state machine), cơ chế **override**, nhật ký sự kiện dạng **black box** và lưu cấu hình bằng **EEPROM**.
-
+* **Tuyên bố phát triển (AI-Assisted)**: Ý tưởng, cấu trúc hệ thống, giải thuật điều khiển và kiểm thử phần cứng do nhóm thực hiện; công cụ AI (Claude, Z.ai) hỗ trợ sinh cú pháp mã nguồn (AI-assisted coding) theo đặc tả kỹ thuật chi tiết của nhóm.
 ---
 
 ## Mục lục
@@ -36,9 +36,9 @@ Dự án tập trung vào tự động hóa, an ninh, giám sát khí gas, chi�
 
 | Hạng mục | Chi tiết |
 |---|---|
-| Tên | **Smart Home Pro v6 — Nhóm 14** |
+| Tên | **Nhà thông minh Arduino — Nhóm 14** |
 | Nhóm | Nguyễn Đoàn Nhất Phong, Nguyễn Duy Quang |
-| Trường | HUST — Trường CNTT&TT (SoICT) |
+| Trường | Đại học Bách khoa Hà Nội — Trường CNTT&TT (SoICT) |
 | Nền tảng | Arduino UNO |
 | Kit | Keyestudio Smart Home (KS0085) |
 | LCD | 16x2 I2C, địa chỉ `0x27` |
@@ -1229,7 +1229,7 @@ Các dữ liệu này sống sót qua reset và mất điện.
 
 ### Tự động 24/7
 
-Smart Home Pro v6 có thể:
+Hệ thống nhà thông minh có thể có thể:
 
 - Phát hiện rò rỉ gas theo 3 mức và phản ứng khẩn cấp:
   - quạt tối đa;
@@ -1258,7 +1258,3 @@ Người dùng có thể:
 - Hiệu chuẩn và kiểm tra phần cứng.
 
 ---
-
-## Ghi chú
-
-README này được biên soạn trực tiếp từ tài liệu mô tả **Smart Home Pro v6 — Nhóm 14**. Các ngưỡng, thời gian, tên trạng thái, tên lệnh và mô tả hành vi được giữ theo nội dung nguồn.
